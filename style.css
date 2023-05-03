@@ -1,0 +1,520 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;900&display=swap");
+
+body {
+  background: #fafafa;
+  width: 100vw;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  overflow-x: hidden;
+  z-index: -2;
+  position: relative;
+}
+.logo {
+  width: 119px;
+  margin: 48px auto 54px;
+  display: flex;
+}
+.overflow {
+  overflow: hidden;
+}
+.hero-left,
+.hero-right {
+  display: none;
+}
+main {
+  width: 375px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.hero-mobile {
+  width: 414px;
+  height: 153px;
+  margin-left: -20px;
+}
+h1 {
+  font-family: "Red Hat Display";
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 44px;
+  text-align: center;
+  color: #28283d;
+  width: 327px;
+  height: 88px;
+  margin: 48px auto 24px;
+}
+.meet {
+  font-family: "Red Hat Display";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #87879d;
+  width: 327px;
+  height: 78px;
+  margin-left: 24px;
+}
+.first {
+  background: #4d96a9;
+  border-radius: 29px;
+  width: 193px;
+  height: 58px;
+  border: none;
+  margin: 32px 91px 16px 91px;
+}
+.group-one {
+  display: flex;
+  align-items: center;
+}
+.Download {
+  font-family: "Red Hat Display";
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff;
+  width: 79px;
+  height: 26px;
+  padding: 16px 4px 16px 40px;
+}
+.one {
+  font-family: "Red Hat Display";
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 26px;
+  color: #8fe3f9;
+  width: 30px;
+  height: 26px;
+}
+.second {
+  background: #855fb1;
+  border-radius: 29px;
+  width: 139px;
+  height: 58px;
+  border: none;
+  margin: 0px 118px 64px 118px;
+}
+.what {
+  font-family: "Red Hat Display";
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #ffffff;
+  width: 81px;
+  height: 26px;
+  padding: 16px 29px;
+  display: flex;
+  align-items: center;
+}
+.grey-one {
+  width: 56px;
+  height: 140px;
+  margin: 0px 159px 64px 160px;
+}
+hr {
+  mix-blend-mode: normal;
+  opacity: 0.25;
+  border: 1px solid #87879d;
+  width: 0.1px;
+  height: 84px;
+  margin-bottom: 0px;
+}
+.oval-one {
+  width: 56px;
+  height: 56px;
+  background: #fafafa;
+  border: 1px solid rgba(135, 135, 157, 0.25);
+  border-radius: 29px;
+}
+.number-one {
+  font-family: "Red Hat Display";
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 26px;
+  color: #87879d;
+  width: 18px;
+  padding: 15px 19px;
+}
+.images {
+  width: 327px;
+  height: 310px;
+  margin: 0px 24px 64px 24px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+.videocall,
+.videochatting,
+.meeting,
+.texting {
+  width: 151px;
+  height: 143px;
+  border-radius: 10px;
+}
+.built {
+  width: 327px;
+  height: 284px;
+  margin: 0px 24px 64px 24px;
+}
+h3 {
+  font-family: "Red Hat Display";
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: #4d96a9;
+  text-align: center;
+  margin-bottom: 24px;
+}
+h2 {
+  font-family: "Red Hat Display";
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 36px;
+  text-align: center;
+  color: #28283d;
+  width: 327px;
+  height: 72px;
+  margin-bottom: 32px;
+}
+.message {
+  font-family: "Red Hat Display";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #87879d;
+  width: 327px;
+  height: 130px;
+}
+.oval-two {
+  background: #fafafa;
+  border: 1px solid rgba(135, 135, 157, 0.25);
+  border-radius: 29px;
+  width: 56px;
+  height: 56px;
+  margin-left: 159px;
+  margin-bottom: -30px;
+}
+.number-two {
+  font-family: "Red Hat Display";
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #87879d;
+  padding: 15px 17.5px;
+  width: 21px;
+}
+footer {
+  width: 375px;
+  height: 428px;
+  background-image: url("./assets/footer-mobile.jpg");
+  background-repeat: no-repeat;
+  background-size: 375px 428px;
+  mix-blend-mode: normal;
+  box-sizing: border-box;
+  position: relative;
+  z-index: -1;
+}
+footer::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: #4d96a9;
+  position: absolute;
+  opacity: 0.9;
+}
+.wrapper {
+  position: absolute;
+  z-index: 9;
+}
+h4 {
+  font-family: "Red Hat Display";
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 36px;
+  text-align: center;
+  color: #fafafa;
+  width: 327px;
+  height: 72px;
+  margin: 92px 24px 0px 24px;
+}
+.stay {
+  font-family: "Red Hat Display";
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  text-align: center;
+  color: #fafafa;
+  width: 327px;
+  height: 78px;
+  margin: 24px 24px 32px 24px;
+}
+.third {
+  background: #855fb1;
+  border-radius: 29px;
+  width: 193px;
+  height: 58px;
+  margin: 0px 92px 72px 90px;
+  border: none;
+}
+.group-two {
+  display: flex;
+  align-items: center;
+}
+.two {
+  font-family: "Red Hat Display";
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 26px;
+  color: #d9b8ff;
+  width: 30px;
+  height: 26px;
+}
+
+@media (min-width: 768px) {
+  body {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .logo {
+    margin-bottom: 64px;
+    display: flex;
+  }
+  main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .hero-mobile {
+    width: 820px;
+    height: 303px;
+    margin-left: -26px;
+  }
+  .hero-left,
+  .hero-right {
+    display: none;
+  }
+  h1 {
+    font-size: 48px;
+    line-height: 48px;
+    width: 339px;
+    height: 96px;
+    margin-top: 72px;
+  }
+  .meet {
+    width: 457px;
+    height: 52px;
+    margin-left: 155px;
+  }
+  .buttons {
+    display: flex;
+    justify-content: center;
+    margin: 32px 0px 80px 0px;
+  }
+  .first {
+    margin: 0px;
+    margin-left: 210px;
+  }
+  .second {
+    margin: 0px;
+    margin-left: 16px;
+  }
+  .grey-one {
+    margin: 0px;
+    margin-left: 356px;
+    margin-bottom: 67px;
+  }
+  .images {
+    width: 689px;
+    height: 156px;
+    margin: 0px 40px 48px 39px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 11px;
+  }
+  .videocall,
+  .videochatting,
+  .meeting,
+  .texting {
+    width: 164px;
+    height: 156px;
+  }
+  .built {
+    width: 573px;
+    height: 240px;
+    margin: 0px 98px 80px 97px;
+  }
+  h3 {
+    text-align: center;
+    margin-bottom: 16px;
+  }
+  h2 {
+    font-size: 40px;
+    line-height: 44px;
+    width: 100%;
+    height: 88px;
+    margin-bottom: 32px;
+  }
+  .message {
+    width: 573px;
+    height: 78px;
+  }
+  .oval-two {
+    margin-left: 355px;
+  }
+  footer {
+    width: 768px;
+    height: 428px;
+    background-image: url("./assets/footer-tablet.jpg");
+    background-size: 768px 428px;
+  }
+  h4 {
+    font-size: 40px;
+    line-height: 44px;
+    width: 458px;
+    height: 88px;
+    margin: 92px 156px 0px 155px;
+  }
+  .stay {
+    width: 573px;
+    height: 52px;
+    margin: 32px 98px 40px 97px;
+  }
+  .third {
+    background: #855fb1;
+    border-radius: 29px;
+    width: 193px;
+    height: 58px;
+    margin: 0px 288px 66px 287px;
+    border: none;
+  }
+}
+
+@media (min-width: 1440px) {
+  body {
+    box-sizing: border-box;
+  }
+  .hero-mobile {
+    display: none;
+  }
+  .logo {
+    margin: 80px auto 61px;
+  }
+  .hero-left,
+  .hero-right {
+    display: block;
+  }
+  .all {
+    width: 1504px;
+    height: 358px;
+    margin-left: -32px;
+    margin-bottom: 110px;
+    display: flex;
+    align-items: center;
+  }
+  .info {
+    width: 540px;
+    height: 304px;
+    padding: 0px 88px;
+  }
+  h1 {
+    font-size: 64px;
+    line-height: 64px;
+    width: 445px;
+    height: 128px;
+    margin-top: 0px;
+  }
+  .meet {
+    font-size: 18px;
+    width: 540px;
+    margin-left: 0px;
+  }
+  .buttons {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0px;
+  }
+  .first {
+    margin: 0px;
+    margin-left: 0px;
+  }
+  .grey-one {
+    margin-left: 692px;
+    margin-bottom: 64px;
+  }
+  .images {
+    width: 1110px;
+    height: 242px;
+    margin: 0px auto 80px;
+    gap: 30px;
+  }
+  .videocall,
+  .videochatting,
+  .meeting,
+  .texting {
+    width: 255px;
+    height: 242px;
+  }
+  .built {
+    width: 540px;
+    margin: 0px auto 72px;
+  }
+  .message {
+    font-size: 18px;
+    width: 540px;
+  }
+  .oval-two {
+    margin-left: 692px;
+  }
+  footer {
+    width: 1440px;
+    height: 308px;
+    background-image: url("./assets/footer-desktop.jpg");
+    background-size: 1440px 308px;
+  }
+  h4 {
+    width: 350px;
+    padding-right: 125px;
+    margin: 0px;
+  }
+  .stay {
+    width: 350px;
+    height: 78px;
+    padding-right: 92px;
+    margin: 0px;
+  }
+  .third {
+    margin: 0px;
+    border: none;
+  }
+  .wrapper {
+    width: 1110px;
+    height: 88px;
+    margin: 116px 165px 104px 165px;
+    display: flex;
+    align-items: center;
+  }
+  .first:hover {
+    background: #71c0d4;
+    cursor: pointer;
+  }
+  .second:hover {
+    background: #b18bdd;
+    cursor: pointer;
+  }
+  .third:hover {
+    background: #b18bdd;
+    cursor: pointer;
+  }
+}
