@@ -178,7 +178,7 @@ h2 {
   line-height: 36px;
   text-align: center;
   color: #28283d;
-  width: 327px;
+  width: 100%;
   height: 72px;
   margin-bottom: 32px;
 }
@@ -189,7 +189,7 @@ h2 {
   line-height: 26px;
   text-align: center;
   color: #87879d;
-  width: 327px;
+  width: 100%;
   height: 130px;
 }
 .oval-two {
@@ -360,15 +360,17 @@ h4 {
     margin-bottom: 16px;
   }
   h2 {
+    margin: 0px;
     font-size: 40px;
     line-height: 44px;
-    width: 100%;
+    width: 445px;
     height: 88px;
-    margin-bottom: 32px;
+    margin: auto;
   }
   .message {
     width: 573px;
     height: 78px;
+    margin-top: 32px;
   }
   .oval-two {
     margin-left: 355px;
@@ -487,12 +489,14 @@ h4 {
     width: 350px;
     padding-right: 125px;
     margin: 0px;
+    text-align: start;
   }
   .stay {
     width: 350px;
     height: 78px;
     padding-right: 92px;
     margin: 0px;
+    text-align: start;
   }
   .third {
     margin: 0px;
